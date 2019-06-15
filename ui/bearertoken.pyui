@@ -1,0 +1,135 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{211, 25}, {365, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "WLB",
+          "font_size" : 17,
+          "frame" : "{{134, 210}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "7546BBC9-2735-4CD8-A396-40C25C610F00",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "name" : "consumerKey",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{211, 73}, {365, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "WLB",
+          "font_name" : "<System>",
+          "frame" : "{{134, 210}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "7546BBC9-2735-4CD8-A396-40C25C610F00",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "name" : "consumerSecret"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 25}, {152.5, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WRB",
+          "font_size" : 18,
+          "frame" : "{{220, 268}, {150, 32}}",
+          "uuid" : "B50327BB-6776-4ED9-BECD-8053CF531716",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Consumer Key",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 73}, {152.5, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WRB",
+          "font_name" : "<System>",
+          "frame" : "{{220, 268}, {150, 32}}",
+          "uuid" : "B50327BB-6776-4ED9-BECD-8053CF531716",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Consumer Secret",
+          "font_size" : 18,
+          "name" : "label1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{434, 128}, {142, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "getBearerToken",
+          "flex" : "LB",
+          "frame" : "{{255, 268}, {80, 32}}",
+          "title" : "Get Bearer Token",
+          "uuid" : "58375B41-5A77-4FD1-B42D-C31F063DB2ED",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "generate",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{30, 190}, {547, 60}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "bearerToken",
+          "editable" : false,
+          "frame" : "{{201, 38}, {200, 200}}",
+          "spellchecking_type" : "no",
+          "class" : "TextView",
+          "uuid" : "CF643E3C-BF84-4F94-9396-DEC26C4F99B3",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {614, 281}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Generate Bearer Token",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
