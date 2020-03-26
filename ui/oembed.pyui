@@ -1,0 +1,77 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 61}, {82, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "label1",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "9DE7274B-354B-47C9-8351-DC681D5F2AAA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Tweet ID",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{116, 61}, {211, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "WB",
+          "font_name" : "<System>",
+          "action" : "showTweet",
+          "frame" : "{{134, 210}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "7546BBC9-2735-4CD8-A396-40C25C610F00",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "name" : "tweetId"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{108, 110}, {139, 55}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "showTweet",
+          "flex" : "",
+          "frame" : "{{255, 268}, {80, 32}}",
+          "title" : "Show Tweet",
+          "uuid" : "58375B41-5A77-4FD1-B42D-C31F063DB2ED",
+          "class" : "Button",
+          "font_bold" : true,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_color" : "RGBA(1.000000,0.796296,0.694444,1.000000)",
+          "name" : "show",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {340, 220}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
